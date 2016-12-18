@@ -235,7 +235,6 @@
     <Content Include="Scripts\_references.js" />
     <Content Include="Themes\Tema1\Content\blog.html" />
     <Content Include="Themes\Tema1\Content\img\unitime.png" />
-    <Content Include="Themes\Tema1\Content\index.html" />
     <Content Include="Themes\Tema1\Content\single-post.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -300,7 +299,9 @@
     <Content Include="Themes\Tema1\Views\Web.config" />
     <Content Include="Themes\Tema1\Content\.DS_Store" />
     <Content Include="Themes\Tema1\Content\README.md" />
-    <Content Include="Themes\Tema1\Content\sendmail.php" />
+    <Content Include="Themes\Tema1\Content\sendmail.php">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
